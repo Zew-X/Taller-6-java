@@ -1,31 +1,29 @@
 TALLER 6 - RESPUESTAS PARTE 2
-Integrante A: ___________________________
-Integrante B: ___________________________
+Integrante A: _Dilan González_
+Integrante B: _Jafeth Guevara_
 
 ──────────────────────────────────────────
 1. ¿Cómo accedes al valor 88 (Luis en Español) usando índices?
 
-RESPUESTA:
+RESPUESTA: Se accede mediante calificaciones[1][1]. El primer índice 1 corresponde a Luis (segunda fila) y el segundo índice 1 corresponde a Español (segunda columna). El valor obtenido es 88.
 
 
 ──────────────────────────────────────────
 2. ¿Cuántos bucles for necesitas para recorrer todos los elementos de un arreglo 2D? ¿Por qué?
 
-RESPUESTA:
-
+RESPUESTA: Se necesitan dos bucles for: uno para recorrer las filas (estudiantes) y otro para recorrer las columnas (materias). Esto permite acceder a todos los elementos del arreglo bidimensional.
 
 ──────────────────────────────────────────
 3. Si agregas un cuarto estudiante, ¿qué línea de código tendrías que cambiar?
 
-RESPUESTA:
+RESPUESTA: Primero tendría que cambiar int filas = 3; por int filas = 4; para aumentar el número de estudiantes. También tendría que agregar el nombre del cuarto estudiante al arreglo estudiantes y sus respectivas calificaciones al arreglo calificaciones.
 
 
 ──────────────────────────────────────────
 4. ¿Qué significa String.format("%-12d", valor)? ¿Qué cambia si quitas el -?
 
-RESPUESTA:
-
+RESPUESTA: Significa que el número entero se mostrará ocupando un espacio de 12 caracteres y alineado a la izquierda. Si quitamos el signo -, el número se alineará a la derecha.
 
 ──────────────────────────────────────────
 MODIFICACIÓN REALIZADA (describe qué cambiaste y el nuevo promedio de columna):
-
+Para realizar la modificación, cambié la calificación de Luis en Español de 88 a 100, modificando la línea "calificaciones[1][1] = 100;"
